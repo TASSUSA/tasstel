@@ -1,0 +1,18 @@
+# Site navigation links
+- title: Home
+  url: /
+
+- title: Services
+  url: /services/
+
+- title: Partners
+  url: /partners/
+
+- title: Support
+  url: /support/
+
+- title: About us
+  url: /about/
+
+- title: Contact us
+  url: /contact/
