@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Services
+title: Support
 image:
-  feature: sample-image-2.jpg
+  feature: sample-image-4.jpg
   credit: WeGraphics
   creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 ---
