@@ -4,7 +4,7 @@ title:      TASS Tel
 # description: >
 #   TASS Tel
 locale:     en_US
-url:        "http://yourdomain.com"
+url:        "http://tasstel.com"
 baseurl:    "" # the subpath of your site, e.g. /blog/
 
 
@@ -30,7 +30,6 @@ kramdown:
 # Site owner
 owner:
   name: TASS USA
-  avatar: bio-photo.jpg
   url: http://tassusa.com
 
 

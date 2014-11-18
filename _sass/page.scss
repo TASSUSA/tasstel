@@ -16,6 +16,7 @@ body {
 	@include prefix(12,1);
 	@include suffix(12,1);
 	height: 2em;
+	width: 205px;
 	float: none;
 	display: block;
 	@include font-rem(24);
@@ -32,7 +33,7 @@ body {
 }
 #logo-img{
 	position: relative;
-	top: -20px;
+	top: -25px;
 }
 .top-navigation {
 	@include grid(12,10);
