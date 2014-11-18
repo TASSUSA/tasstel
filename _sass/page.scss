@@ -15,7 +15,7 @@ body {
 	@include grid(12,10);
 	@include prefix(12,1);
 	@include suffix(12,1);
-	margin-bottom: 1em;
+	height: 2em;
 	float: none;
 	display: block;
 	@include font-rem(24);
@@ -29,6 +29,10 @@ body {
 		@include grid(12,1.5);
 		@include prefix(12,2);
 	}
+}
+#logo-img{
+	position: relative;
+	top: -20px;
 }
 .top-navigation {
 	@include grid(12,10);
