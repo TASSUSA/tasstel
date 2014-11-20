@@ -3,8 +3,6 @@ layout: page
 title: Services
 image:
   feature: sample-image-2.jpg
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 ---
 
 This is some text!
