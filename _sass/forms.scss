@@ -28,6 +28,9 @@ btnform {
 		display: none; 
 	}
 }
+legend{
+	font-size: 1.05em;
+}
 label,
 input,
 button,
@@ -45,7 +48,8 @@ textarea {
 }
 label {
 	display: block;
-	margin-bottom: 10px / 8;
+	margin: 10px 0 5px 0;
+
 	font-weight: bold;
 	color: $textcolor;
 	cursor: pointer; 
@@ -108,13 +112,15 @@ input[type="file"] {
 	background-color: initial;
 	@include box-shadow(none); 
 }
+button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
 	width : auto;
 	height : auto;
 	cursor : pointer;
-	*overflow : visible; 
+	*overflow : visible;
+	margin: 10px 0 5px 0;
 }
 select,
 input[type="file"] {

@@ -1,11 +1,15 @@
 ---
 layout: page
 title: Services
-image:
-  feature: sample-image-2.jpg
+image: sample-image-2.jpg
 ---
+TASS Tel provides VoIP Termination globally. We provide the following category services
+A-Z Termination: 
 
-This is some text!
----
+Standard Rout:
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut est dolor aspernatur asperiores distinctio laudantium vitae non illo, quidem, amet earum, enim magni a, nostrum in recusandae nam. Voluptatum, commodi.
+Premium Route: 
+
+Direct SIP: 
+
+Core Route: 
