@@ -3,8 +3,7 @@ layout: page
 title: Welcome
 excerpt: "A minimal Jekyll theme for your blog by designer Michael Rose."
 tags: [Jekyll, theme, responsive, blog, template]
-images: [slideshow/slideshow4.jpg, slideshow/slideshow5.jpg, slideshow/slideshow7.jpg, slideshow/slideshow6.jpg]
-slideshow: true;
+slideshow: true
 ---
 TASS Tel is a USA-based International carrier for voice traffic and aim to spread its network worldwide shortly.  Initially, we aim to cover Indian sub-continent, America and the Middle Eastern regions. We are setting up business relationship with various country including Bangladesh, Hong Kong, India, Pakistan, Nepal, Sri Lanka, Egypt, Iran and Saudi Arabia.
 

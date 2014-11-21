@@ -1,6 +1,6 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="{{ site.baseurl }}/assets/js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
-{% if page.images %}
+{% if page.slideshow %}
 <script src="{{ site.baseurl }}/assets/js/vendor/jquery.slides.min.js"></script>
 <script>
 	//Create the slideshow
@@ -19,6 +19,15 @@
 		},
 		pagination: {
 			active: false,
+		},
+		play: {
+			active: false,
+			auto: true,
+			interval: 4000,
+			swap: false,
+			pauseOnHover: true,
+			restartDelay: 2500,
+			effect: "fade",
 		}
 	});
 </script>
