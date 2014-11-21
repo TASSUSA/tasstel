@@ -62,7 +62,7 @@ function send_email(){
 if(isset($_POST['email'])) {
 	try{
 		send_email();
-		echo 'Thanks for sending us feedback. We will get back to you soon.';
+		echo 'Thanks for sending us feedback. We will get back to you as soon as possible.';
 	}catch (Exception $e){
 		echo
 			"We are very sorry, but there were error(s) found with the form you submitted. <br>"
