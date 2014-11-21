@@ -2,9 +2,9 @@
 layout: page
 title: Contact Us
 image: sample-image-6.jpg
+use_session: true
 ---
 <?php
-session_start();
 function send_email(){
 	$email_to = "shixish@gmail.com"; //"contact@TassTel.com";
 	$email_subject = "Contact form submission";
