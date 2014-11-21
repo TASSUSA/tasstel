@@ -1,0 +1,152 @@
+/* Slideshow ============================================= */
+#showcase{
+	//background:silver;
+	// margin-bottom:50px;
+	@include clearfix;
+}
+
+#slides{
+	@include grid(12,12);
+	@include prefix(12,0);
+	@include suffix(12,0);
+	// @media #{$small} {
+	// 	@include grid(12,10);
+	// 	@include prefix(12,1);
+	// 	@include suffix(12,1);
+	// }
+	// @media #{$large} {
+	// 	@include grid(12,8);
+	// 	@include prefix(12,2);
+	// 	@include suffix(12,2);
+	// }
+	@media #{$x-large} {
+		@include grid(12,8);
+		@include prefix(12,2);
+		@include suffix(12,2);
+	}
+}
+
+#slides,
+#slides2,
+#slides3 {
+	display: none;
+	img{
+		width: 100%;
+	}
+}
+
+.slide-text{
+	position: absolute;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 1.1em;
+	@media #{$small} {
+		font-size: 1.7em;
+	}
+	@media #{$large} {
+		font-size: 2.0em;
+	}
+}
+
+.slidesjs-navigation {
+	margin-top: 3px;
+	font-size: 1.7em;
+	font-weight: bold;
+}
+
+.slidesjs-previous {
+	margin-left: 5px;
+	float: left;
+}
+
+.slidesjs-next {
+	margin-right: 5px;
+	float: right;
+}
+
+.slidesjs-pagination {
+	margin: 6px 0 0;
+	float: right;
+	list-style: none;
+}
+
+.slidesjs-pagination li {
+	float: left;
+	margin: 0 1px;
+}
+
+.slidesjs-pagination li a {
+	display: block;
+	width: 13px;
+	height: 0;
+	padding-top: 13px;
+	background-image: url(/img/pagination.png);
+	background-position: 0 0;
+	float: left;
+	overflow: hidden;
+}
+
+.slidesjs-pagination li a.active,
+.slidesjs-pagination li a:hover.active {
+	background-position: 0 -13px
+}
+
+.slidesjs-pagination li a:hover {
+	background-position: 0 -26px
+}
+
+#slides a:link,
+#slides a:visited {
+	color: #333
+}
+
+#slides a:hover,
+#slides a:active {
+	color: #9e2020
+}
+
+.navbar {
+	overflow: hidden
+}
+/* End SlidesJS Optional */
+
+/* SlidesJS Required: These styles are required if you'd like a responsive slideshow */
+#slides {
+	display: none
+}
+
+.container {
+	margin: 0 auto
+}
+
+/* For tablets & smart phones */
+@media (max-width: 767px) {
+	body {
+	padding-left: 20px;
+	padding-right: 20px;
+	}
+	.container {
+	width: auto
+	}
+}
+
+/* For smartphones */
+@media (max-width: 480px) {
+	.container {
+	width: auto
+	}
+}
+
+/* For smaller displays like laptops */
+@media (min-width: 768px) and (max-width: 979px) {
+	.container {
+	width: 724px
+	}
+}
+
+/* For larger displays */
+@media (min-width: 1200px) {
+	.container {
+	width: 1170px
+	}
+}

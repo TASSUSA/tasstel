@@ -16,29 +16,55 @@
 
 {% include _navigation.html %}
 
-{% if page.image %}
-  <div class="image-wrap">
-  <img src=
-    {% if page.image contains 'http' %}
-      "{{ page.image }}"
-    {% else %}
-      "{{ site.baseurl }}/assets/img/{{ page.image }}"
-    {% endif %}
-    alt="{{ page.title }} feature image">
-  </div><!-- /.image-wrap -->
+{% if page.slideshow %}
+	<div id="showcase">
+		<div id="slides">
+			<div>
+				<div class="slide-text" style="top:15%; left:5%; color:white; text-align:right;">Customer Service<br><small>Second to none</small></div>
+				<img src="{{ site.baseurl }}/assets/img/slideshow/slideshow4.jpg">
+			</div>
+			<div>
+				<div class="slide-text" style="top:40%; left:30%;">World class technology</small></div>
+				<img src="{{ site.baseurl }}/assets/img/slideshow/slideshow5.jpg">
+			</div>
+			<div>
+				<div class="slide-text" style="top:45%; right:15%;">Excellent Customer Satisfaction</div>
+				<img src="{{ site.baseurl }}/assets/img/slideshow/slideshow7.jpg">
+			</div>
+			<div>
+				<div class="slide-text" style="top:65%; left:10%; color:white;">Always stay connected</div>
+				<img src="{{ site.baseurl }}/assets/img/slideshow/slideshow6.jpg">
+			</div>
+			<!-- {% for image in page.images %}
+			<div><img src="{{ site.baseurl }}/assets/img/{{image}}"></div>
+			{% endfor %} -->
+			<a href="#" class="slidesjs-previous slidesjs-navigation">&lt;</a>
+			<a href="#" class="slidesjs-next slidesjs-navigation">&gt;</a>
+		</div><!-- /.slides -->
+	</div>
+{% else if page.image %}
+	<div class="image-wrap">
+	<img src=
+		{% if page.image contains 'http' %}
+			"{{ page.image }}"
+		{% else %}
+			"{{ site.baseurl }}/assets/img/{{ page.image }}"
+		{% endif %}
+		alt="{{ page.title }} feature image">
+	</div><!-- /.image-wrap -->
 {% endif %}
 
 <div id="main" role="main">
-  {{ content }}
+	{{ content }}
 </div><!-- /#main -->
 
 <div class="footer-wrap">
-  <footer>
-    {% include _footer.html %}
-  </footer>
+	<footer>
+		{% include _footer.html %}
+	</footer>
 </div><!-- /.footer-wrap -->
 
 {% include _scripts.html %}
-  
+	
 </body>
 </html>

@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"t",
+				"type	Attr"
+			],
+			[
 				"$up",
 				"$upload_folder"
 			],
@@ -31,38 +35,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "_layouts/default.html",
-			"settings":
-			{
-				"buffer_size": 1155,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 328,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_sass/site.scss",
-			"settings":
-			{
-				"buffer_size": 901,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_sass/page.scss",
-			"settings":
-			{
-				"buffer_size": 11565,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -286,22 +258,49 @@
 	"expanded_folders":
 	[
 		"/C/Users/Andrew/Work/jekyll.tasstel",
-		"/C/Users/Andrew/Work/jekyll.tasstel/_sass"
+		"/C/Users/Andrew/Work/jekyll.tasstel/_includes",
+		"/C/Users/Andrew/Work/jekyll.tasstel/_layouts",
+		"/C/Users/Andrew/Work/jekyll.tasstel/_sass",
+		"/C/Users/Andrew/Work/jekyll.tasstel/_site/contact",
+		"/C/Users/Andrew/Work/jekyll.tasstel/assets",
+		"/C/Users/Andrew/Work/jekyll.tasstel/assets/css",
+		"/C/Users/Andrew/Work/jekyll.tasstel/contact",
+		"/C/Users/Andrew/Work/jekyll.tasstel/partners"
 	],
 	"file_history":
 	[
-		"/C/Users/Andrew/Work/jekyll.tasstel/index.html",
-		"/C/Users/Andrew/Work/jekyll.tasstel/services/index.md",
-		"/C/Users/Andrew/Work/jekyll.tasstel/contact/index.md",
-		"/C/Users/Andrew/Work/jekyll.tasstel/about/index.md",
-		"/C/Users/Andrew/Work/jekyll.tasstel/partners/index.md",
-		"/C/Users/Andrew/Work/jekyll.tasstel/_sass/page.scss",
 		"/C/Users/Andrew/Work/jekyll.tasstel/_includes/_navigation.html",
+		"/C/Users/Andrew/Work/jekyll.tasstel/partners/index.md",
+		"/C/Users/Andrew/Work/jekyll.tasstel/_sass/forms.scss",
+		"/C/Users/Andrew/Work/jekyll.tasstel/_layouts/default.html",
+		"/C/Users/Andrew/Work/jekyll.tasstel/contact/index.php",
+		"/C/Users/Andrew/Work/jekyll.tasstel/_site/contact/index.php",
+		"/C/Users/Andrew/AppData/Local/Temp/fz3temp-1/index.php",
+		"/C/Users/Andrew/Work/jekyll.tasstel/contact/error.md",
+		"/C/Users/Andrew/Work/jekyll.tasstel/contact/thanks.md",
+		"/C/Users/Andrew/Work/jekyll.tasstel/contact/submit.php",
+		"/C/Users/Andrew/Work/jekyll.tasstel/_includes/_head.html",
+		"/C/wamp/www/contact/index.php",
+		"/C/Users/Andrew/AppData/Local/Temp/fz3temp-1/error_log",
+		"/C/Users/Andrew/AppData/Local/Temp/fz3temp-1/test.php",
+		"/C/wamp/www/contact/submit.php",
+		"/C/Users/Andrew/Work/jekyll.tasstel/_site/contact/submit.php",
+		"/C/Users/Andrew/Work/jekyll.tasstel/index.md",
+		"/C/Users/Andrew/Work/jekyll.tasstel/_sass/page.scss",
+		"/C/Users/Andrew/Work/jekyll.tasstel/about/index.md",
+		"/C/Users/Andrew/Work/jekyll.tasstel/_layouts/error.html",
+		"/C/Users/Andrew/Work/jekyll.tasstel/services/index.md",
+		"/C/Users/Andrew/Work/jekyll.tasstel/support/index.md",
+		"/C/Users/Andrew/Work/jekyll.tasstel/assets/css/main.scss",
+		"/C/Users/Andrew/Work/jekyll.tasstel/_sass/typography.scss",
 		"/C/Users/Andrew/Work/jekyll.tasstel/_config.yml",
+		"/C/Users/Andrew/Work/jekyll.tasstel/_sass/mixins.scss",
+		"/C/Users/Andrew/Work/jekyll.tasstel/_sass/normalize.scss",
+		"/C/Users/Andrew/Work/jekyll.tasstel/index.html",
+		"/C/Users/Andrew/Work/jekyll.tasstel/_sass/site.scss",
+		"/C/Users/Andrew/Work/jekyll.tasstel/contact/index.md",
 		"/C/Users/Andrew/Work/jekyll.tasstel/Gemfile",
 		"/C/Users/Andrew/Work/jekyll.tasstel/css/main.scss",
-		"/C/Users/Andrew/Work/jekyll.tasstel/_layouts/default.html",
-		"/C/Users/Andrew/Work/jekyll.tasstel/_layouts/error.html",
 		"/C/Users/Andrew/Work/jekyll.tasstel/404.md",
 		"/C/Users/Andrew/Desktop/New folder/500.php",
 		"/C/Users/Andrew/Desktop/New folder/500.shtml",
@@ -334,7 +333,6 @@
 		"/C/Users/Andrew/Work/jekyll.tasstel/_includes/_footer.html",
 		"/C/Users/Andrew/Work/jekyll.tasstel/_site/services/index.html",
 		"/C/Users/Andrew/Work/jekyll.tasstel/_site/support/index.html",
-		"/C/Users/Andrew/Work/jekyll.tasstel/support/index.md",
 		"/C/Users/Andrew/Work/jekyll.tasstel/_data/authors.yml",
 		"/C/Users/Andrew/Work/jekyll.tasstel/_includes/footer.html",
 		"/C/Users/Andrew/Work/jekyll.tasstel/posts/index.md",
@@ -342,11 +340,9 @@
 		"/C/Users/Andrew/AppData/Local/Temp/7zO68C7.tmp/_config.yml",
 		"/C/Users/Andrew/Work/jekyll.tasstel/_layouts/post-index.html",
 		"/C/Users/Andrew/Work/jekyll.tasstel/_layouts/home.html",
-		"/C/Users/Andrew/Work/jekyll.tasstel/index.md",
 		"/C/Users/Andrew/Work/jekyll.tasstel/_layouts/page.html",
 		"/C/Users/Andrew/Work/jekyll.tasstel/_posts/2014-07-31-author-override.md",
 		"/C/Users/Andrew/Work/jekyll.tasstel/assets/js/scripts.min.js",
-		"/C/Users/Andrew/Work/jekyll.tasstel/_includes/_head.html",
 		"/C/Users/Andrew/Work/jekyll.tasstel/Services/index.md",
 		"/C/Users/Andrew/Work/jekyll.tasstel/theme-setup/index.md",
 		"/C/Users/Andrew/Work/jekyll.tasstel/_site/2013/08/16/code-highlighting-post.html",
@@ -400,24 +396,7 @@
 		"/C/wamp/www/hawaiitass/_layouts/default.html",
 		"/C/wamp/www/hawaiitass/_data/index_nav.yml",
 		"/C/wamp/www/hawaiitass/_layouts/page.html",
-		"/C/wamp/www/hawaiitass/feed.xml",
-		"/C/wamp/www/hawaiitass/assets/css/main.scss",
-		"/C/wamp/www/hawaiitass/_sass/_base.scss",
-		"/C/wamp/www/hawaiitass/_sass/_syntax-highlighting.scss",
-		"/C/wamp/www/hawaiitass/_includes/head.html",
-		"/C/wamp/www/hawaiitass/_members/andrew.markdown",
-		"/C/wamp/www/hawaiitass/_members/shawon.markdown",
-		"/C/wamp/www/hawaiitass/_layouts/post.html",
-		"/C/wamp/www/hawaiitass/_posts/2014-10-29-welcome-to-jekyll.markdown",
-		"/C/wamp/www/hawaiitass/_posts/2014-10-29-test-post.markdown",
-		"/C/wamp/www/getshoppingguru.com/sites/all/themes/hawaiitass/js/slide.js",
-		"/C/wamp/www/getshoppingguru.com/sites/all/themes/hawaiitass/css/flexslider.css",
-		"/C/wamp/www/getshoppingguru.com/sites/all/themes/hawaiitass/js/jquery.flexslider.js",
-		"/C/Users/Andrew/Desktop/flexslider.css",
-		"/C/Users/Andrew/AppData/Local/Temp/7zO7AF6.tmp/jquery.flexslider.js",
-		"/C/wamp/www/getshoppingguru.com/sites/all/themes/hawaiitass/js/custom.js",
-		"/C/wamp/www/getshoppingguru.com/sites/all/themes/hawaiitass/templates/page--front.tpl.php",
-		"/C/wamp/www/getshoppingguru.com/sites/all/themes/hawaiitass/style.css"
+		"/C/wamp/www/hawaiitass/feed.xml"
 	],
 	"find":
 	{
@@ -428,6 +407,9 @@
 		"height": 90.0,
 		"where_history":
 		[
+			"",
+			"C:\\Users\\Andrew\\Work\\jekyll.tasstel\\_sass",
+			"*.scss",
 			"",
 			"C:\\wamp\\www\\test\\modules\\oauth",
 			"C:\\wamp\\www\\hawaiitass\\_members",
@@ -441,6 +423,52 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"/images",
+			"images",
+			"error_output(",
+			"error(",
+			"$email_",
+			"died",
+			"?",
+			"?>",
+			"$comments",
+			"first_name",
+			"Message",
+			"message",
+			"['comments']",
+			"$_POST['comments']",
+			"\\n\\s\\n",
+			"\\n \\n",
+			"\\n",
+			"\\r",
+			"\\n\\n",
+			"\\r\\n",
+			"\\n\\n",
+			"\\n",
+			"legend",
+			"button",
+			"fieldset",
+			"label",
+			"h3",
+			"image.feature",
+			"  feature: ",
+			"p {",
+			"p ",
+			"$linkcolor",
+			"343434",
+			"p {",
+			"typo",
+			"typeo",
+			"type",
+			"typography",
+			"footnotes ol",
+			"+p",
+			"p+p",
+			"p+p{",
+			"p{",
+			"p",
+			"font-rem",
+			"p+p",
 			":before",
 			":before	",
 			":before",
@@ -522,53 +550,7 @@
 			"<div class=\"views-row views-row-12 views-row-even views-row-last who-we-are-row col-md-3 col-sm-4 col-xs-6\">",
 			"		<a href=\"/user/1537\">",
 			"</div>",
-			"	<img typeof=\"foaf:Image\" src=\"",
-			"		</span>\n		</span> ",
-			"<div class=\"views-field-field-job-title\">",
-			"<span class=\"views-field-field-last-name\">",
-			"		<span class=\"field-content\">",
-			"			<div class=\"views-field-mail\">\n		<span class=\"field-content\">",
-			"		</div>  \n			<div class=\"views-field-mail\">\n		<span class=\"field-content\">",
-			"		</span>\n		</div>\n		</div>",
-			"		<div class=\"views-row views-row-3 views-row-odd who-we-are-row col-md-3 col-sm-4 col-xs-6\">",
-			"		<a href=\"/user/1516\">",
-			"		<a href=\"/user/1496\">",
-			"\n		<div class=\"views-field-picture\">",
-			"		<a href=\"/user/1517\">",
-			"		<img typeof=\"foaf:Image\" src=\"",
-			"		<a href=\"/user/1519\">",
-			"		<div class=\"who-we-are-row col-md-3 col-sm-4 col-xs-6\">\n",
-			"\" alt=\"\">\n		\n",
-			"		<div class=\"views-field-picture\">\n\n\n		<img typeof=\"foaf:Image\" src=\"",
-			"		<a href=\"/user/1529\">",
-			"		</div>\n		</div>  \n		<span class=\"views-field-field-last-name\">\n		<span class=\"field-content\">",
-			"		<a href=\"/user/1534\">",
-			"</a>",
-			"		</span>\n		</span>  \n		<div class=\"views-field-field-job-title\">",
-			" </div>",
-			"		<div class=\"field-content\">",
-			"<!--new row -->",
-			"		<div class=\"who-we-are-row",
-			"> *<",
-			">\\s*<",
-			"><",
-			"        <",
-			"views-field ",
-			"views-row views-row-\\d views-row-even ",
-			"- ",
-			"scripts[] = ",
-			"Name",
-			"- ",
-			": ",
-			":",
-			"\" class",
-			"\"",
-			"#page",
-			"header",
-			"#colophon",
-			"colophon",
-			"<li",
-			"map"
+			"	<img typeof=\"foaf:Image\" src=\""
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -576,6 +558,9 @@
 		"regex": false,
 		"replace_history":
 		[
+			"\\n",
+			"image",
+			"",
 			"left-sidebar",
 			" ",
 			"TASSUSA.com",
@@ -700,10 +685,7 @@
 			"]",
 			"[",
 			"]",
-			"[",
-			"=>",
-			"[",
-			"]"
+			"["
 		],
 		"reverse": false,
 		"show_context": true,
@@ -714,373 +696,8 @@
 	"groups":
 	[
 		{
-			"selected": 3,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "_layouts/default.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1155,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								416,
-								416
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
-							],
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Jekyll/Syntaxes/HTML (Jekyll).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 198.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 328,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								328,
-								328
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
-							],
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Jekyll/Syntaxes/HTML (Jekyll).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "_sass/site.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 901,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								397,
-								397
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
-							],
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": -0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "_sass/page.scss",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 11565,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								565,
-								565
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
-							],
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": -0.0,
-						"translation.y": 132.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
