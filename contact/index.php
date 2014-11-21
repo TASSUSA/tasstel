@@ -6,7 +6,7 @@ use_session: true
 ---
 <?php
 function send_email(){
-	$email_to = "shixish@gmail.com"; //"contact@TassTel.com";
+	$email_to = "contact@TassTel.com";
 	$email_subject = "Contact form submission";
 	
 	// validation expected data exists
@@ -49,7 +49,7 @@ function send_email(){
 	$email_message = "Name: $name\n";
 	$email_message .= "Email: $email_from\n";
 	$email_message .= "Reason: $reason\n";
-	$email_message .= "Message:\n $message";
+	$email_message .= "Message:\n$message";
 		 
 	// create email headers
 	$headers = 
