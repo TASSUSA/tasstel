@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About Us
-image: sample-image-5.jpg
+image: page5.jpg
 ---
 TASS Tel, a private company, which started by two professors at the University of Hawaii, USA. TASS Tel is registered in Hawaii and currently seeking an International Carrier License in Telecommunication. It is a sister company of the TASS USA which is an established Software Development company in the USA. 
 
