@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Contact Us
-image: sample-image-6.jpg
+image: page6.jpg
 use_session: true
 ---
 <?php
