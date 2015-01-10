@@ -34,13 +34,13 @@
 {% endif %}
 <script src="{{ site.baseurl }}/assets/js/scripts.min.js"></script>
 
-{% if site.owner.google.analytics %}
+{% if site.google_analytics %}
 <!-- Asynchronous Google Analytics snippet -->
 <script>
 	var _gaq = _gaq || [];
 	var pluginUrl = '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
 	_gaq.push(['_require', 'inpage_linkid', pluginUrl]);
-	_gaq.push(['_setAccount', '{{ site.owner.google.analytics }}']);
+	_gaq.push(['_setAccount', '{{ site.google_analytics }}']);
 	_gaq.push(['_trackPageview']);
 
 	(function() {
