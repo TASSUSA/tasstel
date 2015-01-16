@@ -11,6 +11,11 @@ body {
 	text-transform: uppercase;
 	@include clearfix;
 }
+.nav{
+	a{
+		color: $basecolor;
+	}
+}
 .site-name {
 	@include grid(12,10);
 	@include prefix(12,1);

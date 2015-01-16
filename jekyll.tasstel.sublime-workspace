@@ -47,7 +47,7 @@
 			"file": "_layouts/default.html",
 			"settings":
 			{
-				"buffer_size": 2030,
+				"buffer_size": 2404,
 				"line_ending": "Windows"
 			}
 		},
@@ -55,16 +55,34 @@
 			"file": "index.md",
 			"settings":
 			{
-				"buffer_size": 944,
+				"buffer_size": 984,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "_includes/_scripts.html",
+			"file": "about/index.md",
 			"settings":
 			{
-				"buffer_size": 1660,
-				"line_ending": "Unix"
+				"buffer_size": 1742,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nPackage Control:\n---------------\n\n  Version 3.0 Release Notes\n  \n  \n  **** Windows Sublime Text 3 Users ****\n  \n  Due to a bug in Package Control 2.0, Windows ST3 users will need to open the\n  Sublime Text console (ctrl+`) and execute the following Python to properly\n  upgrade. All other users may ignore this part of the message.\n  \n  Make sure NOT to copy the leading two spaces, or an \"unexpected indent\" error\n  will occur.\n  \n  import urllib.request,os; pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')\n  \n  ********\n  \n  \n  Package Control 3.0 adds a bunch of polish, improving the Sublime Text\n  experience for users and package developers:\n  \n   - improved upgrades of themes, color schemes and syntaxes\n   - dependency support\n   - SSL for Linux\n   - new secondary Windows HTTP backend\n   - patches for Python in Sublime Text 2 on Windows\n   - commands to easily remove channels and repositories\n   - an events API for packages\n   - improved documentation\n  \n  \n  As of July 2014, I now work for myself. This has allowed me to spend more time\n  working on open source software, including Package Control. If you appreciate\n  the work I've done, please consider a small donation. If even 5% of regular\n  users donated the price of a coffee or beer, that would cover quite a bit of\n  my development time! See https://packagecontrol.io/about for options.\n  \n  \n  Some recent Package Control stats:\n  \n   - every weekday over 1M JSON requests hit the channel server\n   - in December, the channel server will transmit 4TB+ of compressed JSON\n   - users have installed, upgraded or removed 85M+ packages since late 2011\n  \n  \n  Read more about the release at:\n  \n  https://packagecontrol.io/news#2014-12-23-Package_Control_30_Released\n  \n",
+			"settings":
+			{
+				"buffer_size": 2331,
+				"line_ending": "Windows",
+				"name": "Package Control Messages",
+				"scratch": true
+			}
+		},
+		{
+			"file": "services/index.md",
+			"settings":
+			{
+				"buffer_size": 1161,
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -73,6 +91,15 @@
 			{
 				"buffer_size": 884,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "About US\n\n\n\n\nTass Tel, Inc. is a USA carrier of international voice traffic, founded and incorporated in 2014. Our services include VoIP Carrier Service, VOIP wholesale, Prepaid Calling Card, Software Development, Hosted VOIP billing rental for prepaid calling card business. \n\nTass Tel, Inc. delivers telecommunications services by utilizing cutting-edge-technology based on the IP protocol. Tass Tel delivers carrier class services, enabling customers to have full control over their operation. We are proud to report that we provide services 24/7 and 365 days a year. Tass Tel enables you to offer high performance and reliable global communications services to your customers at a competitive price. \n\nWe are primarily connecting customers in the United States to Bangladesh, Pakistan, India and Nepal.\n\nHome:\nTass Tel is one of the carriers of international voice traffic, founded and incorporated in USA . Our services include VoIP Carrier Service, VOIP wholesale, Prepaid Calling Card, Software Development, Hosted VOIP billing rental for prepaid calling card business.\nTass Tel, Inc. registered in USA and Providing Telecommunications Services since 2014.\n\n\n\n\n\nServices \n\n1.	Wholesale Carriers Business: \nTass Tel provide Wholesale A-Z Termination (SIP & H323). As part of our key services, we offer wholesale A-Z termination through our multiple direct interconnects with PTT / Tier 1 / Tier 2 and mobile operators. Besides offering competitive termination to CLI destinations in ASIA, we do provide domestic termination in the US as well. Tass Tel provides customers with competitive A-Z price list and top quality worldwide call routing.\n2.	Call Centre: \nTass Tel’s technical support team are highly experienced in providing technical support for \n1. Prepaid calling card support \n2. Network monitoring and maintenance support\n3.	Hosted VoIP for Prepaid Calling Card \nTass Tel provide Hosted Billing Prepaid calling card business. So any company can start their own calling card business without having their own billing server, billing software. So our solution takes you to the market within a very short time. We provide 24/7/365 technical support for the billing software.\n\n\n  \n\n\n\n\n\n\n\n\n\n\n\nSupport:\nCustomer Support\n \n24/7 NOC (Network Operation Centre) Support:	+1 (808) 747 4642\n \n24/7 MSN Support:	info@tasstel.com\n \n	\nTechnical Contacts:\n \nZinat Rahman	Andrew Wessels	\nCustomer Relation Manager\n 	+1 (808) 747 4642\n 	zinat@tasstel.com\n	Technical Support\n 	+1 (808) 315-2727\n 	andrew@tasstel.com\n	\n\n Welcome to Tass Tel, Inc. online Support Centre. Tass Tel  technical support team are highly trained & experienced in providing technical support for the customers\n\n\n\n\n\n\n\n\n\n",
+			"settings":
+			{
+				"buffer_size": 2690,
+				"line_ending": "Windows",
+				"name": "About US"
 			}
 		}
 	],
@@ -301,18 +328,19 @@
 		"/C/Users/Andrew/Work/jekyll.tasstel/_layouts",
 		"/C/Users/Andrew/Work/jekyll.tasstel/_sass",
 		"/C/Users/Andrew/Work/jekyll.tasstel/_site",
+		"/C/Users/Andrew/Work/jekyll.tasstel/about",
 		"/C/Users/Andrew/Work/jekyll.tasstel/assets",
-		"/C/Users/Andrew/Work/jekyll.tasstel/assets/js/vendor"
+		"/C/Users/Andrew/Work/jekyll.tasstel/services"
 	],
 	"file_history":
 	[
+		"/C/Users/Andrew/Work/jekyll.tasstel/_includes/_scripts.html",
 		"/C/Users/Andrew/Work/jekyll.tasstel/_sass/slideshow.scss",
 		"/C/Users/Andrew/Desktop/New folder/.htaccess",
 		"/C/Users/Andrew/Desktop/.htaccess",
 		"/C/Users/Andrew/Work/jekyll.tasstel/assets/css/main.scss",
 		"/C/Users/Andrew/Work/jekyll.tasstel/index.md",
 		"/C/Users/Andrew/Work/jekyll.tasstel/assets/js/vendor/slides.min.jquery.js",
-		"/C/Users/Andrew/Work/jekyll.tasstel/_includes/_scripts.html",
 		"/C/Users/Andrew/Work/jekyll.tasstel/_includes/_navigation.html",
 		"/C/Users/Andrew/Work/jekyll.tasstel/partners/index.md",
 		"/C/Users/Andrew/Work/jekyll.tasstel/_sass/forms.scss",
@@ -460,6 +488,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"*",
+			"**",
+			"Tass Tel, Inc ",
+			"Tass Tel Inc.",
+			"Tass Tel",
+			"Tass Tel USA",
 			"PATT Reflections",
 			"clearfix",
 			"/images",
@@ -581,13 +615,7 @@
 			"<a href=\"/user/\\d+",
 			"<div class=\"views-row views-row-\\d views-row-odd who-we-are-row col-md-3 col-sm-4 col-xs-6",
 			"\">",
-			"  <a href=\"",
-			"	<a href=\"/user/1\">",
-			"\n		",
-			"		",
-			"<div class=\"views-field-mail\">",
-			"<div class=\"views-row views-row-12 views-row-even views-row-last who-we-are-row col-md-3 col-sm-4 col-xs-6\">",
-			"		<a href=\"/user/1537\">"
+			"  <a href=\""
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -595,6 +623,9 @@
 		"regex": false,
 		"replace_history":
 		[
+			"Tass Tel, Inc. ",
+			"Tass Tel, Inc.",
+			"Tass Tel",
 			"Practicing Principles",
 			"\\n",
 			"image",
@@ -719,10 +750,7 @@
 			"=>",
 			"]",
 			"[",
-			"=>",
-			"]",
-			"[",
-			"]"
+			"=>"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -733,7 +761,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -742,7 +770,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2030,
+						"buffer_size": 2404,
 						"regions":
 						{
 						},
@@ -825,7 +853,7 @@
 						"translation.y": 343.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
@@ -834,15 +862,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 944,
+						"buffer_size": 984,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								171,
-								171
+								868,
+								868
 							]
 						],
 						"settings":
@@ -850,31 +878,6 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
@@ -885,26 +888,319 @@
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
-								"bh_c_define_content"
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Jekyll/Syntaxes/Markdown (Jekyll).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 88.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "about/index.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1742,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								32,
+								32
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Jekyll/Syntaxes/Markdown (Jekyll).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2331,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2331,
+								2331
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"incomplete_sync": null,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "services/index.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1161,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								183,
+								183
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
 							],
 							"incomplete_sync": null,
 							"remote_loading": false,
@@ -919,99 +1215,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "_includes/_scripts.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1660,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1576,
-								1576
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content"
-							],
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Jekyll/Syntaxes/HTML (Jekyll).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 594.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
+					"buffer": 5,
 					"file": "_config.yml",
 					"semi_transient": false,
 					"settings":
@@ -1097,7 +1301,95 @@
 						"translation.y": 264.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2690,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2187,
+								1169
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_name": "About US",
+							"bh_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"incomplete_sync": null,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 462.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -1451,7 +1743,7 @@
 		[
 			[
 				"",
-				"C:\\Users\\Andrew\\Work\\jekyll.tassusa\\jekyll.tassusa.sublime-project"
+				"C:\\wamp\\www\\getshoppingguru.com\\sites\\all\\themes\\c3bc\\c3bc.sublime-project"
 			]
 		],
 		"width": 380.0
