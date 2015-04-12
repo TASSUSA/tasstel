@@ -366,13 +366,13 @@ $button-size: 1.5rem;
   @include font-rem(14);
   color: $black;
   &:visited {
-    color: $black;
+	color: $black;
   }
   &:hover {
-    @include scale(1.1);
+	@include scale(1.1);
   }
   &:active {
-    @include translate(0, 2px);
+	@include translate(0, 2px);
   }
   .fa {
 		margin-right: 5px;
@@ -524,6 +524,9 @@ $button-size: 1.5rem;
 	@include clearfix;
 	clear: both;
 	padding-bottom: 3em;
+	text-align: center;
+	font-size: .7em;
+
 	a,
 	a:active,
 	a:visited,
@@ -532,7 +535,11 @@ $button-size: 1.5rem;
 	h5,
 	h6,
 	span { 
-		@include font-rem(14);
+		// @include font-rem(14);
+		// font-size: .7em;
+	}
+	h4{
+		margin: 0;
 	}
 	footer {
 		@include grid(12,11);
@@ -659,4 +666,17 @@ $button-size: 1.5rem;
 }
 #goog-wm-sb {
 	@extend .btn;
+}
+
+.highlight{
+	float: right;
+	width: 200px;
+	margin: 0 0 20px 20px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1.7em;
+	img{
+		display: block;
+		margin: auto;
+	}
 }
